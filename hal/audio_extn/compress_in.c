@@ -1,4 +1,4 @@
-/*
+ /*
 * Copyright (c) 2016-2017, The Linux Foundation. All rights reserved.
 *
 * Redistribution and use in source and binary forms, with or without
@@ -32,10 +32,9 @@
 #define LOG_NDDEBUG 0
 
 #ifdef COMPRESS_INPUT_ENABLED
-#include <cutils/log.h>
+#include <log/log.h>
 #include <cutils/properties.h>
 #include <cutils/str_parms.h>
-#include <cutils/log.h>
 
 #include "audio_hw.h"
 #include "platform.h"

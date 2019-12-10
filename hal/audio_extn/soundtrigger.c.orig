@@ -34,7 +34,12 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <dlfcn.h>
+<<<<<<< HEAD
 #include <log/log.h>
+=======
+#include <pthread.h>
+#include <log/log.h>
+>>>>>>> 8e923ecc8b... hal: Use log/log.h instead of log/log.h
 #include <unistd.h>
 #include "audio_hw.h"
 #include "audio_extn.h"

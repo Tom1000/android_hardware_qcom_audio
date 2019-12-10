@@ -27,7 +27,7 @@
 #include <time.h>
 #include <cutils/properties.h>
 #include <cutils/list.h>
-#include <cutils/log.h>
+#include <log/log.h>
 #include <cutils/str_parms.h>
 #include <system/audio.h>
 #include <qap_api.h>
