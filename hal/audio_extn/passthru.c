@@ -31,6 +31,7 @@
 /*#define LOG_NDEBUG 0*/
 #include <stdlib.h>
 #include <cutils/atomic.h>
+#include <cutils/properties.h>
 #include <cutils/str_parms.h>
 #include <log/log.h>
 #include <unistd.h>
@@ -38,7 +39,6 @@
 #include "audio_extn.h"
 #include "platform_api.h"
 #include <platform.h>
-#include <cutils/properties.h>
 
 #include "sound/compress_params.h"
 
